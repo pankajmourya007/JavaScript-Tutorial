@@ -32,6 +32,10 @@ console.log(me.name);
 console.log(me.age);
 me.iop()
 
+me.city = "Rampur"
+object.freeze(me)
+me.city = "Bazpur"
+
 /********************************************* Constructor Function **************************************************/
 function m(name,age) {
     this.name = name;
